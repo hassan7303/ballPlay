@@ -6,7 +6,7 @@ body {
   position: relative;
 }
 canvas {
-  background: blue;
+  background: rgb(0, 0, 0);
 }
 /* .ball {
   width: 40px;
