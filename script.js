@@ -27,6 +27,7 @@ class Ball {
 
     if (useEmoji) {
       c.font = `${this.R * 2}px Arial`;
+      c.fillStyle = useRandomColor ? this.color : "red"; // رنگ ثابت یا تصادفی
       c.fillText(this.emoji, this.X - this.R, this.Y + this.R);
     } else {
       c.arc(this.X, this.Y, this.R, 0, 2 * Math.PI);
